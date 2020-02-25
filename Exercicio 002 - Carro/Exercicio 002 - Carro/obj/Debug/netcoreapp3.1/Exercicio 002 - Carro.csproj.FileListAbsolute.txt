@@ -1,0 +1,11 @@
+C:\Users\Anderson Gabriel\source\repos\Exercicio 002 - Carro\Exercicio 002 - Carro\obj\Debug\netcoreapp3.1\Exercicio 002 - Carro.csprojAssemblyReference.cache
+C:\Users\Anderson Gabriel\source\repos\Exercicio 002 - Carro\Exercicio 002 - Carro\obj\Debug\netcoreapp3.1\Exercicio 002 - Carro.AssemblyInfoInputs.cache
+C:\Users\Anderson Gabriel\source\repos\Exercicio 002 - Carro\Exercicio 002 - Carro\obj\Debug\netcoreapp3.1\Exercicio 002 - Carro.AssemblyInfo.cs
+C:\Users\Anderson Gabriel\source\repos\Exercicio 002 - Carro\Exercicio 002 - Carro\bin\Debug\netcoreapp3.1\Exercicio 002 - Carro.exe
+C:\Users\Anderson Gabriel\source\repos\Exercicio 002 - Carro\Exercicio 002 - Carro\bin\Debug\netcoreapp3.1\Exercicio 002 - Carro.deps.json
+C:\Users\Anderson Gabriel\source\repos\Exercicio 002 - Carro\Exercicio 002 - Carro\bin\Debug\netcoreapp3.1\Exercicio 002 - Carro.runtimeconfig.json
+C:\Users\Anderson Gabriel\source\repos\Exercicio 002 - Carro\Exercicio 002 - Carro\bin\Debug\netcoreapp3.1\Exercicio 002 - Carro.runtimeconfig.dev.json
+C:\Users\Anderson Gabriel\source\repos\Exercicio 002 - Carro\Exercicio 002 - Carro\bin\Debug\netcoreapp3.1\Exercicio 002 - Carro.dll
+C:\Users\Anderson Gabriel\source\repos\Exercicio 002 - Carro\Exercicio 002 - Carro\bin\Debug\netcoreapp3.1\Exercicio 002 - Carro.pdb
+C:\Users\Anderson Gabriel\source\repos\Exercicio 002 - Carro\Exercicio 002 - Carro\obj\Debug\netcoreapp3.1\Exercicio 002 - Carro.dll
+C:\Users\Anderson Gabriel\source\repos\Exercicio 002 - Carro\Exercicio 002 - Carro\obj\Debug\netcoreapp3.1\Exercicio 002 - Carro.pdb
