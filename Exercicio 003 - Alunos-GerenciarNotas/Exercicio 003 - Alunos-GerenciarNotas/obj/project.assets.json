@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anderson Gabriel\\source\\repos\\Exercicio 003 - Alunos-GerenciarNotas\\Exercicio 003 - Alunos-GerenciarNotas\\Exercicio 003 - Alunos-GerenciarNotas.csproj",
+      "projectUniqueName": "C:\\Users\\Anderson Gabriel\\source\\repos\\ADS-Aulas-de-POO-C--\\Exercicio 003 - Alunos-GerenciarNotas\\Exercicio 003 - Alunos-GerenciarNotas\\Exercicio 003 - Alunos-GerenciarNotas.csproj",
       "projectName": "Exercicio 003 - Alunos-GerenciarNotas",
-      "projectPath": "C:\\Users\\Anderson Gabriel\\source\\repos\\Exercicio 003 - Alunos-GerenciarNotas\\Exercicio 003 - Alunos-GerenciarNotas\\Exercicio 003 - Alunos-GerenciarNotas.csproj",
+      "projectPath": "C:\\Users\\Anderson Gabriel\\source\\repos\\ADS-Aulas-de-POO-C--\\Exercicio 003 - Alunos-GerenciarNotas\\Exercicio 003 - Alunos-GerenciarNotas\\Exercicio 003 - Alunos-GerenciarNotas.csproj",
       "packagesPath": "C:\\Users\\Anderson Gabriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anderson Gabriel\\source\\repos\\Exercicio 003 - Alunos-GerenciarNotas\\Exercicio 003 - Alunos-GerenciarNotas\\obj\\",
+      "outputPath": "C:\\Users\\Anderson Gabriel\\source\\repos\\ADS-Aulas-de-POO-C--\\Exercicio 003 - Alunos-GerenciarNotas\\Exercicio 003 - Alunos-GerenciarNotas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
