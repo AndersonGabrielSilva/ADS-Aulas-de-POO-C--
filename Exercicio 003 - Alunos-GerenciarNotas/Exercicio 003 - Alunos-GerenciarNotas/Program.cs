@@ -11,13 +11,14 @@ namespace Exercicio_003___Alunos_GerenciarNotas
             int op;
             do
             {
-                Console.WriteLine("***Menu***");
-                Console.WriteLine("0 - Sair");
-                Console.WriteLine("1 - Adicionar Aluno");
-                Console.WriteLine("2 - Listar");
-                Console.WriteLine("3 - Remover Aluno");
-                Console.WriteLine("4 - Aprovados e Reprovados");
-                Console.WriteLine("\nEntre com a opção desejada: ");
+                Console.Clear();
+                Console.WriteLine("\n\n\n\t\t\t\t-----Menu-----");
+                Console.WriteLine("\n\n\t\t0 - Sair");
+                Console.WriteLine("\n\t\t1 - Adicionar Aluno");
+                Console.WriteLine("\n\t\t2 - Listar");
+                Console.WriteLine("\n\t\t3 - Remover Aluno");
+                Console.WriteLine("\n\t\t4 - Aprovados e Reprovados");
+                Console.Write("\n\t\tEntre com a opção desejada: ");
                 op = int.Parse(Console.ReadLine());
                 switch (op)
                 {
@@ -35,17 +36,19 @@ namespace Exercicio_003___Alunos_GerenciarNotas
                             float nota1, nota2, notaPim;
                             float media;
 
-                            Console.WriteLine("Entre com o nome do Aluno: ");
+                            Console.Clear();
+                            Console.WriteLine("\n\n\n\t\t\t\tCadastrar Aluno");
+                            Console.Write("\n\n\t\tEntre com o nome do Aluno: ");
                             nome = Console.ReadLine();
-                            Console.WriteLine("Entre com o Ra do aluno: ");
+                            Console.Write("\n\t\tEntre com o Ra do aluno: ");
                             ra = Console.ReadLine();
-                            Console.WriteLine("Entre com a Idade: ");
+                            Console.Write("\n\t\tEntre com a Idade: ");
                             idade = int.Parse(Console.ReadLine());
-                            Console.WriteLine("Entre com a primeira nota: ");
+                            Console.Write("\n\t\tEntre com a notaB1: ");
                             nota1 = float.Parse(Console.ReadLine());
-                            Console.WriteLine("Entre com a segunda nota: ");
+                            Console.Write("\n\t\tEntre com a notaB2: ");
                             nota2 = float.Parse(Console.ReadLine());
-                            Console.WriteLine("Entre com a segunda nota do PIM: ");
+                            Console.Write("\n\t\tEntre com a notaPIM: ");
                             notaPim = float.Parse(Console.ReadLine());
 
                             media = ((nota1 * 4) + (notaPim * 2) + (nota2 * 4)) / 10;
@@ -59,6 +62,8 @@ namespace Exercicio_003___Alunos_GerenciarNotas
                             {
                                 cadastroaluno.aprovado = false;
                             }
+
+                            Console.WriteLine("\n\t\tMedia: " + media);
 
                             cadastroaluno.nome = nome;
                             cadastroaluno.ra = ra;
@@ -84,23 +89,84 @@ namespace Exercicio_003___Alunos_GerenciarNotas
                             Console.WriteLine("\n\t\t3 - Listar por Nota ");
                             menu = int.Parse(Console.ReadLine());
 
+                            switch (menu)
+                            {
+                                case 0://Voltar ao Menu Anterios
+                                    {                                       
+                                    }break;
+
+                                case 1:// Listar Aprovados
+                                    {
+                                        Console.Clear();
+                                        Console.WriteLine("\n\n\n\t\t\t\tLista de Aprovados");
+                                        
+                                        for (int x =0; x<quantidade; x++)
+                                        {
+                                            if (aluno[x] != null)
+                                            {
+                                                aluno[x].Aprovados();
+                                            }
+                                            
+                                        }
+                                        Console.ReadKey();
+                                    }break;
+
+                                case 2://Listar Repovados
+                                    {
+                                        Console.Clear();
+                                        Console.WriteLine("\n\n\n\t\t\t\tLista de Reprovados");
+                                        for (int x =0; x<=quantidade; x++) 
+                                        {
+                                            if (aluno[x] != null)
+                                            {
+                                                aluno[x].Reprovados();
+                                            }
+                                        }
+                                        Console.ReadKey();
+                                    }
+                                    break;
+
+                                case 3://Listar por Notas
+                                    {
+
+
+                                    }break;
+
+                                default:
+                                    {
+                                        Console.WriteLine("\n\t\tComando digitado invalido........ Tente novamente!");
+                                    }break;
+
+                            }
+
 
                         }
                         break;
                     case 3://Remover
-                        {
-                            Console.Clear();
+                        {                            
                             int raaux;
+                            Console.Clear();
                             Console.WriteLine("***Remover***");
                             Console.WriteLine("Entre com o RA do aluno para remover: ");
                             raaux = int.Parse(Console.ReadLine());
-                            int aux;
-                            for (int x = raaux; x < quantidade; x++)
+                            
+                            for (int x = 0; x < quantidade; x++)
                             {
-                                aux = x + 1;
-                                aluno[x] = aluno[aux];
+                                if (raaux.Equals(aluno[x].ra) && aluno[x].ativo == true)
+                                {
+                                    Console.WriteLine("\n\n\t\tRa: " + aluno[x].ra);
+                                    Console.WriteLine("\n\t\tNome: " + aluno[x].nome);
+                                    Console.WriteLine("\n\t\tIdade: " + aluno[x].idade);
+                                    Console.WriteLine("\n\t\tNota B1: " + aluno[x].nota1);
+                                    Console.WriteLine("\n\t\tNota B2: " + aluno[x].nota2);
+                                    Console.WriteLine("\n\t\tNota Pim: " + aluno[x].notaPim);
+                                    Console.WriteLine("\n\t\tMedia: " + aluno[x].media);
+                                    Console.WriteLine("\n\n\t\tAprovado: " + aluno[x].aprovado);
+                                    aluno[x].ativo = false;
+                                }
+                              
+                                }
 
-                            }
                             quantidade = quantidade - 1;
                             Console.WriteLine("Removido, pressione qualquer tecla para continuar");
                             Console.ReadKey();
@@ -122,6 +188,8 @@ namespace Exercicio_003___Alunos_GerenciarNotas
                         break;
                 }
             } while (op != 0);
+
+             
         }
 
      

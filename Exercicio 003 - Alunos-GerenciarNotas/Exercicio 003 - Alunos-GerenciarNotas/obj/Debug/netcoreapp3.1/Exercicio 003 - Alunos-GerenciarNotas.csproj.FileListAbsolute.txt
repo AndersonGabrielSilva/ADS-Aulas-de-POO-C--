@@ -1,3 +1,11 @@
 C:\Users\Anderson Gabriel\source\repos\ADS-Aulas-de-POO-C--\Exercicio 003 - Alunos-GerenciarNotas\Exercicio 003 - Alunos-GerenciarNotas\obj\Debug\netcoreapp3.1\Exercicio 003 - Alunos-GerenciarNotas.csprojAssemblyReference.cache
 C:\Users\Anderson Gabriel\source\repos\ADS-Aulas-de-POO-C--\Exercicio 003 - Alunos-GerenciarNotas\Exercicio 003 - Alunos-GerenciarNotas\obj\Debug\netcoreapp3.1\Exercicio 003 - Alunos-GerenciarNotas.AssemblyInfoInputs.cache
 C:\Users\Anderson Gabriel\source\repos\ADS-Aulas-de-POO-C--\Exercicio 003 - Alunos-GerenciarNotas\Exercicio 003 - Alunos-GerenciarNotas\obj\Debug\netcoreapp3.1\Exercicio 003 - Alunos-GerenciarNotas.AssemblyInfo.cs
+C:\Users\Anderson Gabriel\source\repos\ADS-Aulas-de-POO-C--\Exercicio 003 - Alunos-GerenciarNotas\Exercicio 003 - Alunos-GerenciarNotas\bin\Debug\netcoreapp3.1\Exercicio 003 - Alunos-GerenciarNotas.exe
+C:\Users\Anderson Gabriel\source\repos\ADS-Aulas-de-POO-C--\Exercicio 003 - Alunos-GerenciarNotas\Exercicio 003 - Alunos-GerenciarNotas\bin\Debug\netcoreapp3.1\Exercicio 003 - Alunos-GerenciarNotas.deps.json
+C:\Users\Anderson Gabriel\source\repos\ADS-Aulas-de-POO-C--\Exercicio 003 - Alunos-GerenciarNotas\Exercicio 003 - Alunos-GerenciarNotas\bin\Debug\netcoreapp3.1\Exercicio 003 - Alunos-GerenciarNotas.runtimeconfig.json
+C:\Users\Anderson Gabriel\source\repos\ADS-Aulas-de-POO-C--\Exercicio 003 - Alunos-GerenciarNotas\Exercicio 003 - Alunos-GerenciarNotas\bin\Debug\netcoreapp3.1\Exercicio 003 - Alunos-GerenciarNotas.runtimeconfig.dev.json
+C:\Users\Anderson Gabriel\source\repos\ADS-Aulas-de-POO-C--\Exercicio 003 - Alunos-GerenciarNotas\Exercicio 003 - Alunos-GerenciarNotas\bin\Debug\netcoreapp3.1\Exercicio 003 - Alunos-GerenciarNotas.dll
+C:\Users\Anderson Gabriel\source\repos\ADS-Aulas-de-POO-C--\Exercicio 003 - Alunos-GerenciarNotas\Exercicio 003 - Alunos-GerenciarNotas\bin\Debug\netcoreapp3.1\Exercicio 003 - Alunos-GerenciarNotas.pdb
+C:\Users\Anderson Gabriel\source\repos\ADS-Aulas-de-POO-C--\Exercicio 003 - Alunos-GerenciarNotas\Exercicio 003 - Alunos-GerenciarNotas\obj\Debug\netcoreapp3.1\Exercicio 003 - Alunos-GerenciarNotas.dll
+C:\Users\Anderson Gabriel\source\repos\ADS-Aulas-de-POO-C--\Exercicio 003 - Alunos-GerenciarNotas\Exercicio 003 - Alunos-GerenciarNotas\obj\Debug\netcoreapp3.1\Exercicio 003 - Alunos-GerenciarNotas.pdb
