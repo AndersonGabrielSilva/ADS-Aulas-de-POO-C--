@@ -10,34 +10,46 @@ namespace Exercicio_003___Alunos_GerenciarNotas
         public bool aprovado;
         public bool ativo;
 
+        //-------------------------------------------------------------------------------------------------------------------------------------------------------------
+            
+                 //Bloco abaixo destinado há exibir somente os Aprovados        
         public void Aprovados()//Metodo para Listar os Aprovados
         {
             if (aprovado == true && ativo == true)
             {
-                Console.WriteLine("\n\n\t\tRa: " +ra);
-                Console.WriteLine("\n\t\tNome: " + nome);
-                Console.WriteLine("\n\t\tIdade: " + idade);
-                Console.WriteLine("\n\t\tNota B1: " + nota1);
-                Console.WriteLine("\n\t\tNota B2: " + nota2);
-                Console.WriteLine("\n\t\tNota Pim: " + notaPim);
-                Console.WriteLine("\n\t\tMedia: " + media);
-                Console.WriteLine("\n\n\t\tAprovado: " + aprovado);
+                Status();
             }
         }
 
+        //-------------------------------------------------------------------------------------------------------------------------------------------------------------
+            
+                //Bloco abaixo destinado há exibir somente os Reprovados
         public void Reprovados()//Metodo para Listar os Reprovados
         {
             if (aprovado == false && ativo == true)
             {
-                Console.WriteLine("\n\n\t\tRa: " + ra);
-                Console.WriteLine("\n\t\tNome: " + nome);
-                Console.WriteLine("\n\t\tIdade: " + idade);
-                Console.WriteLine("\n\t\tNota B1: " + nota1);
-                Console.WriteLine("\n\t\tNota B2: " + nota2);
-                Console.WriteLine("\n\t\tNota Pim: " + notaPim);
-                Console.WriteLine("\n\t\tMedia: " + media);
-                Console.WriteLine("\n\n\t\tAprovado: " + aprovado);
+                Status();
             }
+        
         }
+
+        //-------------------------------------------------------------------------------------------------------------------------------------------------------------        
+            
+                //Bloco abaixo destinado há exibir o Status do objeto        
+        public void Status()
+        {
+            Console.WriteLine("\n\n\t\tRa: " + ra);
+            Console.WriteLine("\t\tNome: " + nome);
+            Console.WriteLine("\t\tIdade: " + idade);
+            Console.WriteLine("\t\tNota B1: " + nota1);
+            Console.WriteLine("\t\tNota B2: " + nota2);
+            Console.WriteLine("\t\tNota Pim: " + notaPim);
+            Console.WriteLine("\t\tMedia: " + media);
+            Console.WriteLine("\n\t\tAprovado: " + aprovado);
+        }
+        //-------------------------------------------------------------------------------------------------------------------------------------------------------------
     }
+
+
 }
+
