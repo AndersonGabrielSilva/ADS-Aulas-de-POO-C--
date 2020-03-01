@@ -161,7 +161,7 @@ namespace Exercicio_003___Alunos_GerenciarNotas
 
                                         for (int x = 0; x <= quantidade; x++)
                                         {
-                                            if (aluno[x] != null)
+                                            if (aluno[x] != null && aluno[x].ativo == true)
                                             {
                                                 aluno[x].Status();
                                             }
@@ -249,6 +249,7 @@ namespace Exercicio_003___Alunos_GerenciarNotas
                             Console.WriteLine("\n\n\n\t\t\t\t-----Remover-----");
                             Console.WriteLine("\n\n\t\tEntre com o RA do aluno para remover: ");
                             raaux = Console.ReadLine();
+                            raaux = raaux.ToUpper();
 
                             for (int x = 0; x <= quantidade; x++)
                             {
